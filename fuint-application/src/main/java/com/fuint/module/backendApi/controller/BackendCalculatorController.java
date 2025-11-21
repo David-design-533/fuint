@@ -6,7 +6,6 @@ import com.fuint.utils.ArithmeticCalculator;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -19,7 +18,6 @@ import java.util.Map;
  */
 @Api(tags="管理端-算术计算器接口")
 @RestController
-@AllArgsConstructor
 @RequestMapping(value = "/backendApi/calculator")
 public class BackendCalculatorController extends BaseController {
 
